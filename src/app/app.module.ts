@@ -4,10 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToolbarComponent } from './toolbar/toolbar.component';
+import { PropertiesBarComponent } from './properties-bar/properties-bar.component';
+import { MainCanvasComponent } from './main-canvas/main-canvas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ToolbarComponent,
+    PropertiesBarComponent,
+    MainCanvasComponent
   ],
   imports: [
     BrowserModule,
